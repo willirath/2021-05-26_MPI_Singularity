@@ -1,3 +1,7 @@
+# adapted from by https://sylabs.io/guides/3.7/user-guide/mpi.html?highlight=mpi
+# Copyright (c) 2017, SingularityWare, LLC. All rights reserved.
+# Copyright (c) 2018-2020, Sylabs, Inc. All rights reserved.
+
 FROM ubuntu:18.04
 
 RUN mkdir -p /opt
