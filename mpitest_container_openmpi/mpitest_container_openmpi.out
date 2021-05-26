@@ -1,0 +1,40 @@
+Hello, I am rank 0/4
+Hello, I am rank 2/4
+Hello, I am rank 1/4
+Hello, I am rank 3/4
+
+Slurm Job Summary
+*****************
+- General information:
+    date = Wed May 26 12:26:33 CEST 2021
+    hostname = neshcl320
+- Job information:
+    JobId = 928362
+    JobName = mpitest_container_openmpi
+    UserId = smomw122(26467)
+    Account = smomw122
+    Partition = cluster
+    QOS = normal
+    NodeList = neshcl[320-323]
+    Features = (null)
+    Command = /gxfs_work1/fs1/work-geomar3/smomw122/2021-05-26_MPI_Singularity/mpitest_container_openmpi/mpitest_container_openmpi.sh
+    WorkDir = /gxfs_work1/fs1/work-geomar3/smomw122/2021-05-26_MPI_Singularity/mpitest_container_openmpi
+    StdOut = /gxfs_work1/fs1/work-geomar3/smomw122/2021-05-26_MPI_Singularity/mpitest_container_openmpi/mpitest_container_openmpi.out
+    StdErr = /gxfs_work1/fs1/work-geomar3/smomw122/2021-05-26_MPI_Singularity/mpitest_container_openmpi/mpitest_container_openmpi.err
+- Requested resources:
+    Timelimit = 01:00:00 ( 3600s )
+    MinMemoryNode =  ( 3.000M )
+    NumNodes = 4
+    NumCPUs = 4
+    NumTasks = 4
+    CPUs/Task = 1
+    TresPerNode = 
+- Used resources:
+    RunTime = 00:00:03 ( 3s )
+    MaxRSS = 5904K ( 5.766M )
+====================
+- Important conclusions and remarks:
+    * !!! Please, always check if the number of requested cores and nodes matches the need of your program/code !!!
+    * !!! Less than 10% of requested walltime used !!! Please, adapt your batch script.
+    (null)
+
